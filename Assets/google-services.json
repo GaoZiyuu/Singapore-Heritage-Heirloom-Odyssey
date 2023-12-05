@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "907001640085",
+    "project_id": "shho-17d8e",
+    "storage_bucket": "shho-17d8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907001640085:android:2cb2c5f5a9a3ddc445979c",
+        "android_client_info": {
+          "package_name": "com.zookeepers.SHHO"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyJ1l1xEpNoYxDulDEifL3IFNLu6Fh0ds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
