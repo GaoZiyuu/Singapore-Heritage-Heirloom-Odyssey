@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17890204, g: 0.28643247, b: 0.5269852, a: 1}
+  m_IndirectSpecularColor: {r: 0.17940682, g: 0.28791597, b: 0.5261167, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -461,7 +461,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1891550151}
+    m_TransformParent: {fileID: 1084548951}
     m_Modifications:
     - target: {fileID: 416337489652724877, guid: 4841ffc0c0203424aa20389fa184badd,
         type: 3}
@@ -1905,10 +1905,6 @@ PrefabInstance:
       addedObject: {fileID: 1953367200}
     - targetCorrespondingSourceObject: {fileID: 5602775319806219822, guid: fbfc588a949bb1a42b20e5bddc4cf8cf,
         type: 3}
-      insertIndex: 0
-      addedObject: {fileID: 412935216}
-    - targetCorrespondingSourceObject: {fileID: 5602775319806219822, guid: fbfc588a949bb1a42b20e5bddc4cf8cf,
-        type: 3}
       insertIndex: -1
       addedObject: {fileID: 852304048}
     - targetCorrespondingSourceObject: {fileID: 646549660451555536, guid: fbfc588a949bb1a42b20e5bddc4cf8cf,
@@ -1927,6 +1923,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 2073202367}
+    - targetCorrespondingSourceObject: {fileID: 646549660451555536, guid: fbfc588a949bb1a42b20e5bddc4cf8cf,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 412935216}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fbfc588a949bb1a42b20e5bddc4cf8cf, type: 3}
 --- !u!4 &1084548949 stripped
