@@ -1324,7 +1324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2412d6d784007cf409d79410b6fd915f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _controller: 98
+  _controller: 66
   _axis2D: 5
 --- !u!1001 &886176124
 PrefabInstance:
