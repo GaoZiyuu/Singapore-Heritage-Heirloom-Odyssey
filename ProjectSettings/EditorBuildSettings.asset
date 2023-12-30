@@ -5,6 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/laupasat_exterior.unity
+    guid: 3fedbb7a2697d4c0cb64b7359cd56270
+  - enabled: 1
+    path: Assets/Scenes/laupasah-interior.unity
+    guid: 5830f6e7be2cb4b948daeb632b40c99e
   - enabled: 0
     path: Assets/Scenes/Past.unity
     guid: dc780ecdc769e0648bdb1f483b555543
@@ -14,9 +20,6 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/presentEnvironment.unity
     guid: 12dbfb5091bd28342b3b5cfe23147e45
-  - enabled: 1
-    path: Assets/Scenes/laupasah-interior.unity
-    guid: 5830f6e7be2cb4b948daeb632b40c99e
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 972a2fc63bb4fd540a4c636cdb682d16,
       type: 2}
