@@ -6,6 +6,7 @@ public class ParentPlatform : MonoBehaviour
 {
     private void OnCollisionEnter(Collision collision)
     {
+        Debug.Log("worked");
         collision.transform.SetParent(transform);
     }
 

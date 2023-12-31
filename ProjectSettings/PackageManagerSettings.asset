@@ -12,8 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 13964, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   m_EnablePreviewPackages: 0
   m_EnablePackageDependencies: 0
+=======
+  m_EnablePreReleasePackages: 0
+>>>>>>> Stashed changes
   m_AdvancedSettingsExpanded: 1
   m_ScopedRegistriesSettingsExpanded: 1
   oneTimeWarningShown: 0
@@ -28,6 +32,7 @@ MonoBehaviour:
   m_UserAddingNewScopedRegistry: 0
   m_RegistryInfoDraft:
     m_ErrorMessage: 
+<<<<<<< Updated upstream
     m_Original:
       m_Id: 
       m_Name: 
@@ -41,3 +46,8 @@ MonoBehaviour:
     m_Scopes:
     - 
     m_SelectedScopeIndex: 0
+=======
+    m_UserModificationsInstanceId: -840
+    m_OriginalInstanceId: -842
+  m_LoadAssets: 0
+>>>>>>> Stashed changes
