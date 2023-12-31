@@ -6,20 +6,7 @@ using UnityEngine.SocialPlatforms.Impl;
 public class HarbourCoolie : MonoBehaviour
 {
     public int bagtracker;
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
+    public GameObject text;
 
 
     // Start is called before the first frame update
@@ -44,49 +31,9 @@ public class HarbourCoolie : MonoBehaviour
         if (other.gameObject.tag == "sandBag")
         {
             bagtracker += 1 ;
+            text.SetActive(true);
             Debug.Log(bagtracker);
         }
-
-        /*if (other.gameObject.tag == "Q1Trigger")
-        {
-            if (StaffKey == false)
-            {
-                FindStaffKey.SetActive(true);
-            }
-
-            else
-            {
-                FindStaffKey.SetActive(false);
-            }
-
-        }
-
-        if (other.gameObject.tag == "questThree")
-        {
-            if (sheet == false)
-            {
-                Quest2.SetActive(false);
-                Quest3.SetActive(true);
-            }
-
-        }
-        if (other.gameObject.tag == "Q5")
-        {
-            Quest4.SetActive(false);
-            Quest5.SetActive(true);
-        }
-
-        if (other.gameObject.tag == "Q9")
-        {
-            if (diary == false)
-            {
-                Debug.Log("Q9" + other.gameObject.name);
-                Quest8.SetActive(false);
-                Quest9.SetActive(true);
-            }
-
-        }*/
-
 
     }
 }
