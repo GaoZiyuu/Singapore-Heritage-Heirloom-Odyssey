@@ -1,17 +1,19 @@
+using Oculus.Interaction;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class ParentPlatform : MonoBehaviour
 {
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
         Debug.Log("worked");
-        collision.transform.SetParent(transform);
+        other.transform.SetParent(transform);
+
     }
 
-    private void OnCollisionExit(Collision collision)
+    private void OnTriggerExit(Collider other)
     {
-        collision.transform.SetParent(null);
+        other.transform.SetParent(null);
     }
 }
