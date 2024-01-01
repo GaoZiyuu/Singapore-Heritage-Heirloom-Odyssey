@@ -6,6 +6,7 @@ TagManager:
   tags:
   - bakuteh
   - chickenrice
+  - SamplesInfoPanel
   layers:
   - Default
   - TransparentFX
