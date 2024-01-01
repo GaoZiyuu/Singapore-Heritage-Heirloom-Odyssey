@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028326, g: 0.22571333, b: 0.30692202, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -9719,7 +9719,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 470036399}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cb67272c1d6aec54ba333c64ccedb297, type: 3}
   m_Name: 
@@ -15692,7 +15692,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &756136548
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -44035,6 +44035,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1869494124}
   - component: {fileID: 1869494123}
+  - component: {fileID: 1869494125}
   m_Layer: 0
   m_Name: SnapLocation
   m_TagString: Untagged
@@ -44070,12 +44071,33 @@ Transform:
   m_GameObject: {fileID: 1869494122}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 77.59, y: 53.89, z: 358.68}
+  m_LocalPosition: {x: 77.59, y: 52.45, z: 358.68}
   m_LocalScale: {x: 2.4114, y: 1.3847, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1869494125
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869494122}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 6.505427, y: 2.309448, z: 3.9078674}
+  m_Center: {x: 0.14530936, y: 0.65472406, z: 1.4539337}
 --- !u!1001 &1873189973
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51642,6 +51664,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2673756908169628969, guid: 31a045f2224f6f442ae21728cbe63ae9,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4673399280514719612, guid: 31a045f2224f6f442ae21728cbe63ae9,
         type: 3}
       propertyPath: m_LocalPosition.x
