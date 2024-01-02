@@ -5,12 +5,15 @@ using UnityEngine;
 
 public class ParentPlatform : MonoBehaviour
 {
+    public Rigidbody rb;
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("worked");
         if (other.gameObject.tag == "Player")
         {
             other.transform.SetParent(transform);
+            rb.velocity = new Vector2(0, 0);
+            Debug.Log("worked");
+
         }
 
 
