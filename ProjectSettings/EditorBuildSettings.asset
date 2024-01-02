@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
+    path: Assets/Scenes/laupasat_exterior.unity
+    guid: 3fedbb7a2697d4c0cb64b7359cd56270
+  - enabled: 0
+    path: Assets/Scenes/laupasah-interior.unity
+    guid: 5830f6e7be2cb4b948daeb632b40c99e
+  - enabled: 0
     path: Assets/Scenes/Past 1.unity
     guid: 89048d20678cc4549b7dccc3b12eb458
   - enabled: 1
