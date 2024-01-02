@@ -5,31 +5,39 @@ using Firebase;
 using Firebase.Database;
 using Unity.UI;
 using TMPro;
+using UnityEngine.UI;
+using Unity.VisualScripting;
+using UnityEngine.Analytics;
 
 public class Form : MonoBehaviour
 {
-    DatabaseReference databaseReference;
+    [SerializeField] private TMP_InputField nameInputField;
+    [SerializeField] private TMP_InputField emailInputField;
+    [SerializeField] private TMP_InputField messageInputField;
+    [SerializeField] private TMP_InputField ageInputField;
+    [SerializeField] private TMP_InputField genderInputField;
 
-    public TMP_InputField nameInputField;
-    public TMP_InputField emailInputField;
-    public TMP_InputField messageInputField;
 
-    // Start is called before the first frame update
-    void Start()
+    private DatabaseReference databaseReference;
+
+    private void Start()
     {
+        // Initialize Firebase
         databaseReference = FirebaseDatabase.DefaultInstance.RootReference;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void SubmitFormFromButton()
     {
-        
+        SubmitForm();
     }
-    public void SubmitForm(string name, string email, string message, string age, string gender)
+
+    public void SubmitForm()
     {
         string name = nameInputField.text;
         string email = emailInputField.text;
         string message = messageInputField.text;
+        string age = ageInputField.text;
+        string gender = genderInputField.text;
 
         // Create a unique key for each form submission
         string submissionKey = databaseReference.Child("submissions").Push().Key;

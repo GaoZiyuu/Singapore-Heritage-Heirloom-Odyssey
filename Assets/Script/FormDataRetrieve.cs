@@ -1,17 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class FormDataRetrieve : MonoBehaviour
 {
-    public InputField nameInputField;
-    public InputField emailInputField;
-    public InputField messageInputField;
-    public InputField ageInputField;
-    public InputField genderInputField;
+    public TMP_InputField nameInputField;
+    public TMP_InputField emailInputField;
+    public TMP_InputField messageInputField;
+    public TMP_InputField ageInputField;
+    public TMP_InputField genderInputField;
 
-    public void GetFormData()
+    public void SubmitFormData()
     {
         string name = nameInputField.text;
         string email = emailInputField.text;
@@ -20,6 +21,6 @@ public class FormDataRetrieve : MonoBehaviour
         string gender = genderInputField.text;
 
         Form formSubmission = GetComponent<Form>();
-        formSubmission.SubmitForm(name, email, message, age, gender);
+//        formSubmission.SubmitForm(name, email, message, age, gender);
     }
 }
