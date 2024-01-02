@@ -759,8 +759,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.020942947, y: 0.0074647223, z: 0.013972124}
-  m_Center: {x: 0.0010066016, y: 0.0016862843, z: 0.00028157205}
+  m_Size: {x: 0.030597586, y: 0.0074647223, z: 0.013972124}
+  m_Center: {x: 0.0058339196, y: 0.0016862843, z: 0.00028157205}
 --- !u!114 &424264650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4093,6 +4093,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: OVRPlayerController
       objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -4809,12 +4813,12 @@ SceneRoots:
   m_Roots:
   - {fileID: 11985680}
   - {fileID: 424264642}
-  - {fileID: 1912549521}
   - {fileID: 1616273851}
   - {fileID: 1466991343}
   - {fileID: 731335835}
   - {fileID: 1327180260}
   - {fileID: 1563982063}
+  - {fileID: 1912549521}
   - {fileID: 805176891}
   - {fileID: 323823452}
   - {fileID: 303657025}

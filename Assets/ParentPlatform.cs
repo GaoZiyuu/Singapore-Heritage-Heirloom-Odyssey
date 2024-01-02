@@ -7,8 +7,12 @@ public class ParentPlatform : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("worked");
-        other.transform.SetParent(transform);
+        
+        if (other.gameObject.tag == "Player")
+        {
+            other.transform.SetParent(transform);
+            Debug.Log("worked");
+        }
 
     }
 
