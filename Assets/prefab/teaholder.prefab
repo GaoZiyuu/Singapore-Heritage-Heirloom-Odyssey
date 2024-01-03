@@ -1,61 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2924563903679654610
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 9075479147830376095}
-  - component: {fileID: 1765083650695902605}
-  m_Layer: 0
-  m_Name: SnapInteractor
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &9075479147830376095
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2924563903679654610}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 8136424086869692012}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1765083650695902605
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2924563903679654610}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2756c251a8363df4f9d4b30ee6414bd9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _activeState: {fileID: 0}
-  _interactableFilters: []
-  _candidateTiebreaker: {fileID: 0}
-  _maxIterationsPerFrame: 3
-  _data: {fileID: 0}
-  _pointableElement: {fileID: 4433212630150583225}
-  _rigidbody: {fileID: 8338230944202318582}
-  _distanceThreshold: 0.01
-  _snapPoseTransform: {fileID: 0}
-  _defaultInteractable: {fileID: 0}
-  _timeOutInteractable: {fileID: 0}
-  _timeOut: 0
 --- !u!1001 &8602117061943077255
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -124,13 +68,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: teaholder
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07c34934b46f540989dedfb9739c2af1,
+        type: 3}
+      propertyPath: m_TagString
+      value: kopiPlate
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07c34934b46f540989dedfb9739c2af1,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 9075479147830376095}
+    m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 07c34934b46f540989dedfb9739c2af1,
         type: 3}
@@ -153,12 +98,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 8480979025315464761}
   m_SourcePrefab: {fileID: 100100000, guid: 07c34934b46f540989dedfb9739c2af1, type: 3}
---- !u!4 &8136424086869692012 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07c34934b46f540989dedfb9739c2af1,
-    type: 3}
-  m_PrefabInstance: {fileID: 8602117061943077255}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &8908597481663403222 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 07c34934b46f540989dedfb9739c2af1,

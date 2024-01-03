@@ -8,6 +8,11 @@ TagManager:
   - chickenrice
   - SamplesInfoPanel
   - CheckpointManager
+  - spoon
+  - kopiCup
+  - kopiPlate
+  - condenseMilk
+  - teaSet
   layers:
   - Default
   - TransparentFX

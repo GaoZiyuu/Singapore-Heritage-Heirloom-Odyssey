@@ -6,6 +6,7 @@ using Firebase.Auth;
 using TMPro;
 using Firebase.Database;
 using System.Threading.Tasks;
+using UnityEngine.SceneManagement;
 
 public class AuthManager : MonoBehaviour
 {
@@ -59,6 +60,11 @@ public class AuthManager : MonoBehaviour
 
         // Create sample user data
         
+    }
+
+    public void GoToSurvey()
+    {
+        SceneManager.LoadScene(SceneData.End);
     }
 
     private void InitializeFirebase()
@@ -124,6 +130,7 @@ public class AuthManager : MonoBehaviour
             Debug.LogFormat("User signed in successfully: {0} ({1})", User.DisplayName, User.Email);
             warningLoginText.text = ""; //to reset warning text
 
+            GoToSurvey();
             confirmLoginText.text = "Logged In";
 
         }
