@@ -8,14 +8,16 @@ public class CheckPointManager : MonoBehaviour
     [SerializeField] private TMP_Text RickshawText;
     [SerializeField] private TextMeshProUGUI TimerText;
     [SerializeField] private TMP_Text CheckPointText;
-    public int checkPointCounter = 1;
+    public int checkPointCounter = 0;
     float elaspedTime = 0;
     public GameObject rickshaw;
     private bool finishedGame;
+    private bool startTimer;
 
     private void Start()
     {
         finishedGame = false;
+        startTimer = false;
     }
     private void checkPointUI()
     {
@@ -23,6 +25,7 @@ public class CheckPointManager : MonoBehaviour
         {
             CheckPointText.text = "Checkpoint " + checkPointCounter;
             RickshawText.text = "Head to the Bridge";
+            startTimer = true;
         }
         else if (checkPointCounter == 2)
         {
@@ -34,7 +37,11 @@ public class CheckPointManager : MonoBehaviour
 
             CheckPointText.text = "Checkpoint " + checkPointCounter;
             RickshawText.text = "Head to the port";
+        }
+        else if (checkPointCounter == 4) 
+        {
             finishedGame = true;
+            startTimer = false;
         }
     }
 
@@ -47,7 +54,6 @@ public class CheckPointManager : MonoBehaviour
     }
     IEnumerator rickshawFin()
     {
-        yield return new WaitForSeconds(3f);
         CheckPointText.text = "Mini game is finished";
         RickshawText.text = "Congrats!!";
         yield return new WaitForSeconds(5f);
@@ -60,7 +66,7 @@ public class CheckPointManager : MonoBehaviour
     private void Update()
     {
         checkPointUI();
-        if (checkPointCounter < 3)
+        if (startTimer)
         {
             Timer();
         }
@@ -68,6 +74,7 @@ public class CheckPointManager : MonoBehaviour
         if (finishedGame)
         {
             StartCoroutine(rickshawFin());
+            
         }
     }
 }
