@@ -44,7 +44,7 @@ public class CheckPointManager : MonoBehaviour
         {
             finishedGame = true;
             startTimer = false;
-            rickshawOn = false;
+            rickshawCheck();
         }
     }
 
