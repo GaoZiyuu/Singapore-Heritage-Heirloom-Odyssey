@@ -13,7 +13,7 @@ public class Checkpoint : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-       if(other.tag == "Player" && myCheckPointManager.GetComponent<CheckPointManager>().rickshawOn == true)
+       if(other.tag == "Player" )
         {
             myMaterial.color = Color.green;
             myCheckPointManager.GetComponent<CheckPointManager>().checkPointCounter++;
@@ -21,7 +21,7 @@ public class Checkpoint : MonoBehaviour
     }
     private void OnTriggerExit(Collider other)
     {
-        if (other.tag == "Player" && myCheckPointManager.GetComponent<CheckPointManager>().rickshawOn == true)
+        if (other.tag == "Player")
         {
             myMaterial.color = Color.white;
         }

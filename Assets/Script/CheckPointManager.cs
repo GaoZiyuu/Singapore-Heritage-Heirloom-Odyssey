@@ -44,14 +44,14 @@ public class CheckPointManager : MonoBehaviour
         {
             finishedGame = true;
             startTimer = false;
-            rickshawOn = false;
+            //rickshawCheck();
         }
     }
 
-    public void rickshawCheck()
-    {
-        rickshawOn = !rickshawOn;
-    }
+    //public void rickshawCheck()
+    //{
+    //    rickshawOn = !rickshawOn;
+    //}
 
     private void Timer()
     {
