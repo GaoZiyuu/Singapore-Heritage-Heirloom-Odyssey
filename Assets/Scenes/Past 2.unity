@@ -17289,7 +17289,7 @@ PrefabInstance:
     - target: {fileID: 2514378102316187827, guid: 56223be63d2aa104dbf1884030f8612d,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 9.13941
+      value: 8.074447
       objectReference: {fileID: 0}
     - target: {fileID: 2514378102316187827, guid: 56223be63d2aa104dbf1884030f8612d,
         type: 3}
@@ -17299,12 +17299,12 @@ PrefabInstance:
     - target: {fileID: 2514378102316187827, guid: 56223be63d2aa104dbf1884030f8612d,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 30.596884
+      value: 35.718803
       objectReference: {fileID: 0}
     - target: {fileID: 2514378102316187827, guid: 56223be63d2aa104dbf1884030f8612d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 90.2
+      value: 91.23
       objectReference: {fileID: 0}
     - target: {fileID: 2514378102316187827, guid: 56223be63d2aa104dbf1884030f8612d,
         type: 3}
@@ -17314,7 +17314,7 @@ PrefabInstance:
     - target: {fileID: 2514378102316187827, guid: 56223be63d2aa104dbf1884030f8612d,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 338.5
+      value: 339.97
       objectReference: {fileID: 0}
     - target: {fileID: 2514378102316187827, guid: 56223be63d2aa104dbf1884030f8612d,
         type: 3}
@@ -17350,6 +17350,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9163205810072835248, guid: 56223be63d2aa104dbf1884030f8612d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -51374,18 +51379,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56223be63d2aa104dbf1884030f8612d, type: 3}
---- !u!114 &1877233924 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2220102744628628130, guid: 56223be63d2aa104dbf1884030f8612d,
-    type: 3}
-  m_PrefabInstance: {fileID: 1877233923}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e34c60b7dd753224291e687db4602e8b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1880689388
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57601,6 +57594,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: afef6030ff9396c48b481ba32b2a3dfb, type: 3}
+--- !u!114 &1208183983715927494 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6899109634698313877, guid: afef6030ff9396c48b481ba32b2a3dfb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1208183983715927493}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2104155496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3cada178017fd842afa7367a88b3eee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1450953503717277385
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -60203,8 +60208,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1877233924}
-        m_TargetAssemblyTypeName: Checkpoint, Assembly-CSharp
+      - m_Target: {fileID: 1208183983715927494}
+        m_TargetAssemblyTypeName: CheckPointManager, Assembly-CSharp
         m_MethodName: rickshawCheck
         m_Mode: 1
         m_Arguments:

@@ -13,11 +13,13 @@ public class CheckPointManager : MonoBehaviour
     public GameObject rickshaw;
     private bool finishedGame;
     private bool startTimer;
+    public bool rickshawOn;
 
     private void Start()
     {
         finishedGame = false;
         startTimer = false;
+        rickshawOn = false;
     }
     private void checkPointUI()
     {
@@ -42,7 +44,13 @@ public class CheckPointManager : MonoBehaviour
         {
             finishedGame = true;
             startTimer = false;
+            rickshawOn = false;
         }
+    }
+
+    public void rickshawCheck()
+    {
+        rickshawOn = !rickshawOn;
     }
 
     private void Timer()
@@ -76,5 +84,6 @@ public class CheckPointManager : MonoBehaviour
             StartCoroutine(rickshawFin());
             
         }
+
     }
 }
