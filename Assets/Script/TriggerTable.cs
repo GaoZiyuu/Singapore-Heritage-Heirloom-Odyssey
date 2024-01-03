@@ -12,17 +12,17 @@ public class TriggerTable : MonoBehaviour
     {
         if(other.gameObject.tag == "kopiPlate")
         {
-            Destroy(gameObject);
+            Destroy(teaPlate.gameObject);
             teaPlate.SetActive(true);
         }
         if(other.gameObject.tag == "kopiCup")
         {
-            Destroy(gameObject);
+            Destroy(teaCup.gameObject);
             teaCup.SetActive(true);
         }
         if(other.gameObject.tag == "spoon")
         {
-            Destroy(gameObject);
+            Destroy(teaSpoon.gameObject);
             teaSpoon.SetActive(true);
         }
     }
