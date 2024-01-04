@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028326, g: 0.22571333, b: 0.30692202, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -11312,6 +11312,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1281387b891e60244b314e2fd6652020, type: 3}
+--- !u!1 &417838407 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1798147207197706616, guid: 56223be63d2aa104dbf1884030f8612d,
+    type: 3}
+  m_PrefabInstance: {fileID: 7470615462831478607}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &423432628
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18735,7 +18741,7 @@ PrefabInstance:
     - target: {fileID: 2514378102316187827, guid: 56223be63d2aa104dbf1884030f8612d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 91.23
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 2514378102316187827, guid: 56223be63d2aa104dbf1884030f8612d,
         type: 3}
@@ -18792,6 +18798,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56223be63d2aa104dbf1884030f8612d, type: 3}
+--- !u!1 &661280746 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1798147207197706616, guid: 56223be63d2aa104dbf1884030f8612d,
+    type: 3}
+  m_PrefabInstance: {fileID: 661280745}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &661294965
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30030,6 +30042,80 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1281387b891e60244b314e2fd6652020, type: 3}
+--- !u!1001 &1039652737
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 80907537938380032, guid: 11a4fb01f3152344b8944d949d025ce0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 270.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 80907537938380032, guid: 11a4fb01f3152344b8944d949d025ce0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 53.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 80907537938380032, guid: 11a4fb01f3152344b8944d949d025ce0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 241.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 80907537938380032, guid: 11a4fb01f3152344b8944d949d025ce0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.17158684
+      objectReference: {fileID: 0}
+    - target: {fileID: 80907537938380032, guid: 11a4fb01f3152344b8944d949d025ce0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 80907537938380032, guid: 11a4fb01f3152344b8944d949d025ce0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.985169
+      objectReference: {fileID: 0}
+    - target: {fileID: 80907537938380032, guid: 11a4fb01f3152344b8944d949d025ce0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 80907537938380032, guid: 11a4fb01f3152344b8944d949d025ce0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 80907537938380032, guid: 11a4fb01f3152344b8944d949d025ce0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 199.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 80907537938380032, guid: 11a4fb01f3152344b8944d949d025ce0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6254102905602587703, guid: 11a4fb01f3152344b8944d949d025ce0,
+        type: 3}
+      propertyPath: m_Name
+      value: Last Rickshaw
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 11a4fb01f3152344b8944d949d025ce0, type: 3}
+--- !u!1 &1039652738 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6254102905602587703, guid: 11a4fb01f3152344b8944d949d025ce0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1039652737}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1040933639
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35921,6 +36007,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56223be63d2aa104dbf1884030f8612d, type: 3}
+--- !u!1 &1173124818 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1798147207197706616, guid: 56223be63d2aa104dbf1884030f8612d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1173124817}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1177514081
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55839,6 +55931,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56223be63d2aa104dbf1884030f8612d, type: 3}
+--- !u!1 &1877233924 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1798147207197706616, guid: 56223be63d2aa104dbf1884030f8612d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1877233923}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1879013049
 GameObject:
   m_ObjectHideFlags: 0
@@ -56740,7 +56838,7 @@ PrefabInstance:
     - target: {fileID: 6254102905602587703, guid: 11a4fb01f3152344b8944d949d025ce0,
         type: 3}
       propertyPath: m_Name
-      value: Rickshaw N100518 (8)
+      value: Player Rickshaw
       objectReference: {fileID: 0}
     - target: {fileID: 6254102905602587703, guid: 11a4fb01f3152344b8944d949d025ce0,
         type: 3}
@@ -61923,7 +62021,7 @@ PrefabInstance:
     - target: {fileID: 6254102905602587703, guid: 11a4fb01f3152344b8944d949d025ce0,
         type: 3}
       propertyPath: m_Name
-      value: Rickshaw N100518 (1)
+      value: First Rickshaw
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -62127,9 +62225,19 @@ PrefabInstance:
       objectReference: {fileID: 432244807}
     - target: {fileID: 6899109634698313877, guid: afef6030ff9396c48b481ba32b2a3dfb,
         type: 3}
+      propertyPath: LastRickshaw
+      value: 
+      objectReference: {fileID: 1039652738}
+    - target: {fileID: 6899109634698313877, guid: afef6030ff9396c48b481ba32b2a3dfb,
+        type: 3}
       propertyPath: RickshawText
       value: 
       objectReference: {fileID: 1326327478}
+    - target: {fileID: 6899109634698313877, guid: afef6030ff9396c48b481ba32b2a3dfb,
+        type: 3}
+      propertyPath: firstRickshaw
+      value: 
+      objectReference: {fileID: 3256443793819895372}
     - target: {fileID: 6899109634698313877, guid: afef6030ff9396c48b481ba32b2a3dfb,
         type: 3}
       propertyPath: CheckPointText
@@ -62140,6 +62248,36 @@ PrefabInstance:
       propertyPath: CollidedObjText
       value: 
       objectReference: {fileID: 1460469519}
+    - target: {fileID: 6899109634698313877, guid: afef6030ff9396c48b481ba32b2a3dfb,
+        type: 3}
+      propertyPath: firstRickshawCanvas
+      value: 
+      objectReference: {fileID: 1918656404}
+    - target: {fileID: 6899109634698313877, guid: afef6030ff9396c48b481ba32b2a3dfb,
+        type: 3}
+      propertyPath: checkpointsList.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6899109634698313877, guid: afef6030ff9396c48b481ba32b2a3dfb,
+        type: 3}
+      propertyPath: checkpointsList.Array.data[0]
+      value: 
+      objectReference: {fileID: 1173124818}
+    - target: {fileID: 6899109634698313877, guid: afef6030ff9396c48b481ba32b2a3dfb,
+        type: 3}
+      propertyPath: checkpointsList.Array.data[1]
+      value: 
+      objectReference: {fileID: 661280746}
+    - target: {fileID: 6899109634698313877, guid: afef6030ff9396c48b481ba32b2a3dfb,
+        type: 3}
+      propertyPath: checkpointsList.Array.data[2]
+      value: 
+      objectReference: {fileID: 1877233924}
+    - target: {fileID: 6899109634698313877, guid: afef6030ff9396c48b481ba32b2a3dfb,
+        type: 3}
+      propertyPath: checkpointsList.Array.data[3]
+      value: 
+      objectReference: {fileID: 417838407}
     - target: {fileID: 8371444038390193382, guid: afef6030ff9396c48b481ba32b2a3dfb,
         type: 3}
       propertyPath: m_Name
@@ -64735,10 +64873,10 @@ MonoBehaviour:
   _whenHover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1918656404}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1208183983715927494}
+        m_TargetAssemblyTypeName: CheckPointManager, Assembly-CSharp
+        m_MethodName: hoverFirstRickshaw
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -64750,9 +64888,9 @@ MonoBehaviour:
   _whenUnhover:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1918656404}
+      - m_Target: {fileID: 2104155496}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
+        m_MethodName: 
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -64765,33 +64903,9 @@ MonoBehaviour:
   _whenSelect:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3256443793819895372}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1902341500}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 1208183983715927494}
         m_TargetAssemblyTypeName: CheckPointManager, Assembly-CSharp
-        m_MethodName: rickshawCheck
+        m_MethodName: checkRickshawReady
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -65767,6 +65881,7 @@ SceneRoots:
   - {fileID: 1325175679}
   - {fileID: 232271477}
   - {fileID: 2052170416}
+  - {fileID: 1039652737}
   - {fileID: 1101135325}
   - {fileID: 1963823945}
   - {fileID: 1277835914}
