@@ -2,50 +2,63 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TriggerSandbag : MonoBehaviour
+public class TriggerSandBag : MonoBehaviour
 {
-    public GameObject sandbag1;
-    public GameObject sandbag2;
-    public GameObject sandbag3;
-    public GameObject relic;
+    public GameObject SandBag1;
+    public GameObject SandBag2;
+    public GameObject SandBag3;
     public int bagtracker;
+    public GameObject relic;
+
 
     public void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "sandbag")
+         
         {
             bagtracker += 1;
 
-            if (bagtracker == 1 && other.gameObject.tag == "sandbag")
+            if (other.gameObject.tag == "sandbag" && bagtracker == 1)
             {
                 Destroy(other.gameObject);
-                sandbag1.SetActive(true);
+                SandBag1.SetActive(true);
             }
-            else if (bagtracker == 2 && other.gameObject.tag == "sandbag")
+
+            else if (other.gameObject.tag == "sandbag" && bagtracker == 2)
             {
                 Destroy(other.gameObject);
-                sandbag2.SetActive(true);
+                SandBag2.SetActive(true);
             }
 
-            else if (bagtracker == 3 && other.gameObject.tag == "sandbag")
+            else if (other.gameObject.tag == "sandbag" && bagtracker == 3)
             {
                 Destroy(other.gameObject);
-                sandbag3.SetActive(true);
+                SandBag3.SetActive(true);
+                relic.SetActive(true);
             }
-
-
         }
+        
+        
 
-        // Start is called before the first frame update
-        void Start()
+        /*if (other.gameObject.tag == "sandbag1")
+
         {
-            bagtracker = 0;
-        }
+            Destroy(other.gameObject);
+            SandBag1.SetActive(true);
 
-        // Update is called once per frame
-        void Update()
-        {
+        }*/
 
-        }
+    }
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
     }
 }
