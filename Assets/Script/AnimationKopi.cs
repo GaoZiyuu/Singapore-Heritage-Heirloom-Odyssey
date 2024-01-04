@@ -16,7 +16,7 @@ public class AnimationKopi : MonoBehaviour
             conMilk.SetBool("Pour", true);
             other.transform.SetParent(teaSet);
             condenseMilk.SetActive(true);
-            Destroy(condenseMilk.gameObject);
+            Destroy(other.gameObject);
         }
     }
     // Start is called before the first frame update

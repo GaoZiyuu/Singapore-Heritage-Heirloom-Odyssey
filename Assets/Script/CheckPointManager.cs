@@ -8,6 +8,7 @@ public class CheckPointManager : MonoBehaviour
     [SerializeField] private TMP_Text RickshawText;
     [SerializeField] private TextMeshProUGUI TimerText;
     [SerializeField] private TMP_Text CheckPointText;
+    [SerializeField] private TMP_Text CollidedObjText;
     public int checkPointCounter = 0;
     float elaspedTime = 0;
     public GameObject rickshaw;
@@ -70,7 +71,11 @@ public class CheckPointManager : MonoBehaviour
         yield return new WaitForEndOfFrame();
     }
 
-  
+    public void AddCollidedObjNames(string name)
+    {
+        CollidedObjText.text += name + '\n';
+    }
+
     private void Update()
     {
         checkPointUI();

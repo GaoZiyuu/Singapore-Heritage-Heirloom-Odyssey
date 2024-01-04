@@ -15,8 +15,10 @@ public class Checkpoint : MonoBehaviour
     {
        if(other.tag == "Player" )
         {
+            myCheckPointManager.GetComponent<CheckPointManager>().AddCollidedObjNames(other.gameObject.name);
             myMaterial.color = Color.green;
             myCheckPointManager.GetComponent<CheckPointManager>().checkPointCounter++;
+            Destroy(gameObject);
         }
     }
     private void OnTriggerExit(Collider other)
