@@ -58,22 +58,32 @@
     <file>Assets/Plugins/Android/com.google.firebase.firebase-annotations-16.2.0.jar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-appcheck-interop-17.0.1.aar</file>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <file>Assets/Plugins/Android/com.google.firebase.firebase-app-unity-11.5.0.aar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-auth-22.1.2.aar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-auth-interop-20.0.0.aar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-auth-unity-11.5.0.aar</file>
 =======
+=======
+>>>>>>> Stashed changes
     <file>Assets/Plugins/Android/com.google.firebase.firebase-app-unity-11.6.0.aar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-auth-22.1.2.aar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-auth-interop-20.0.0.aar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-auth-unity-11.6.0.aar</file>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     <file>Assets/Plugins/Android/com.google.firebase.firebase-common-20.3.3.aar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-components-17.1.0.aar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-database-20.2.2.aar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-database-collection-18.0.1.aar</file>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <file>Assets/Plugins/Android/com.google.firebase.firebase-database-unity-11.5.0.aar</file>
+=======
+    <file>Assets/Plugins/Android/com.google.firebase.firebase-database-unity-11.6.0.aar</file>
+>>>>>>> Stashed changes
 =======
     <file>Assets/Plugins/Android/com.google.firebase.firebase-database-unity-11.6.0.aar</file>
 >>>>>>> Stashed changes
