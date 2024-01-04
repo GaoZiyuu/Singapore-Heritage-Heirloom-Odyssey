@@ -6,6 +6,8 @@ TagManager:
   tags:
   - bakuteh
   - chickenrice
+<<<<<<< Updated upstream
+=======
   - SamplesInfoPanel
   - CheckpointManager
   - spoon
@@ -13,6 +15,8 @@ TagManager:
   - kopiPlate
   - condenseMilk
   - teaSet
+  - sandbag
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
@@ -20,8 +24,8 @@ TagManager:
   - 
   - Water
   - UI
-  - Player
-  - Sandbags
+  - 
+  - 
   - 
   - 
   - 
