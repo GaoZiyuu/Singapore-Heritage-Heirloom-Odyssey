@@ -71,7 +71,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1798147207197706616}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -119,4 +119,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myMaterial: {fileID: 2100000, guid: 178569af0bdaf3a42b0304ed47a08d7e, type: 2}
-  myCheckPointManager: {fileID: 0}
+  myCheckPointManager: {fileID: 8371444038390193382, guid: afef6030ff9396c48b481ba32b2a3dfb,
+    type: 3}

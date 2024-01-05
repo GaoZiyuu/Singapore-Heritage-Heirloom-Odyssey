@@ -104,10 +104,10 @@ public class CheckPointManager : MonoBehaviour
             }
         }
     }
-    public void AddCollidedObjNames(string name)
-    {
-        CollidedObjText.text += name + '\n';
-    }
+    //public void AddCollidedObjNames(string name)
+    //{
+    //    CollidedObjText.text += name + '\n';
+    //}
 
     private void Update()
     {
