@@ -20,7 +20,7 @@ public class MakingKopi : MonoBehaviour
         if (other.gameObject.tag == "kopiPowder")
         {
             kopiPowder.SetActive(true);
-            kopiPowderPour.SetBool("kopiPour", true);
+            //kopiPowderPour.SetBool("kopiPour", true);
             other.transform.SetParent(MakeKopi);
             StartCoroutine(hideKopiPowder());
         }
@@ -28,7 +28,7 @@ public class MakingKopi : MonoBehaviour
         if (other.gameObject.tag == "hotWater")
         {
             hotWater.SetActive(true);
-            hotWaterPour.SetBool("hotpour", true);
+            //hotWaterPour.SetBool("hotpour", true);
             other.transform.SetParent(MakeKopi);
             StartCoroutine(hideHotWater());
         }
@@ -36,7 +36,7 @@ public class MakingKopi : MonoBehaviour
         if (other.gameObject.tag == "scooper")
         {
             scooper.SetActive(true);
-            stir.SetBool("stir", true);
+            //stir.SetBool("stir", true);
             other.transform.SetParent(MakeKopi);
             StartCoroutine(hideScooper());
         }
@@ -44,19 +44,22 @@ public class MakingKopi : MonoBehaviour
 
     IEnumerator hideKopiPowder()
     {
-        yield return new WaitForSeconds(2);
+        kopiPowderPour.SetBool("kopiPour", true);
+        yield return new WaitForSeconds(3);
         kopiPowder.SetActive(false);
     }
 
     IEnumerator hideHotWater()
     {
-        yield return new WaitForSeconds(2);
+        hotWaterPour.SetBool("hotpour", true);
+        yield return new WaitForSeconds(3);
         hotWater.SetActive(false);
     }
 
     IEnumerator hideScooper()
     {
-        yield return new WaitForSeconds(2);
+        stir.SetBool("stir", true);
+        yield return new WaitForSeconds(3);
         scooper.SetActive(false);
     }
 }

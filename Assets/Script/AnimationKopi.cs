@@ -19,31 +19,33 @@ public class AnimationKopi : MonoBehaviour
         if(other.gameObject.tag == "condenseMilk")
         {
             conMilky.SetActive(true);
-            conMilk.SetBool("Pour", true);
+            //conMilk.SetBool("Pour", true);
             other.transform.SetParent(teaSet);
-            condenseMilk.SetActive(true);
             StartCoroutine(hideCondenseMilk());
+            condenseMilk.SetActive(true);
         }
 
-        if(other.gameObject.tag == "doneKopi")
+        if (other.gameObject.tag == "doneKopi")
         {
             doneKopi.SetActive(true);
-            pourKopi.SetBool("donePour", true);
+            //pourKopi.SetBool("donePour", true);
             other.transform.SetParent(teaSet);
-            kopi.SetActive(true);
             StartCoroutine(hideKopi());
+            kopi.SetActive(true);
         }
     }
 
     IEnumerator hideCondenseMilk()
     {
-        yield return new WaitForSeconds(2);
+        conMilk.SetBool("Pour", true);
+        yield return new WaitForSeconds(3);
         conMilky.SetActive(false);
     }
 
     IEnumerator hideKopi()
     {
-        yield return new WaitForSeconds(2);
+        pourKopi.SetBool("donePour", true);
+        yield return new WaitForSeconds(3);
         doneKopi.SetActive(false);
     }
 

@@ -66532,7 +66532,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1001 &1912643165851426074
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -67021,7 +67021,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &2757172099067136101
 GameObject:
   m_ObjectHideFlags: 0
@@ -69842,7 +69842,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &8551339499246950734
 MeshRenderer:
   m_ObjectHideFlags: 0
