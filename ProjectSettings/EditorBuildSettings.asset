@@ -17,10 +17,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/presentEnvironment.unity
     guid: 12dbfb5091bd28342b3b5cfe23147e45
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Past 2.unity
     guid: 6e835cae29b286d43ad1ec6487301cf1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Login.unity
     guid: 970005e1be707438fa6128956859791f
   - enabled: 0

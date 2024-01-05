@@ -16,6 +16,9 @@ TagManager:
   - sandbag
   - kopiMaker
   - kopiPowder
+  - hotWater
+  - scooper
+  - doneKopi
   layers:
   - Default
   - TransparentFX
