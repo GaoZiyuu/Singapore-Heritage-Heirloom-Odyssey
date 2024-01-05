@@ -13,6 +13,8 @@ TagManager:
   - kopiPlate
   - condenseMilk
   - teaSet
+  - sandbag
+  - kopiMaker
   layers:
   - Default
   - TransparentFX
