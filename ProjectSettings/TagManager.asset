@@ -15,6 +15,7 @@ TagManager:
   - teaSet
   - sandbag
   - kopiMaker
+  - kopiPowder
   layers:
   - Default
   - TransparentFX
