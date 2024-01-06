@@ -133,6 +133,7 @@ public class AuthManager : MonoBehaviour
 
             GoToSurvey();
             confirmLoginText.text = "Logged In";
+            SceneManager.LoadScene(1);
 
         }
     }
