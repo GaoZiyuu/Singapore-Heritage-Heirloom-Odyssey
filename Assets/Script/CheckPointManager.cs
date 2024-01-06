@@ -84,6 +84,8 @@ public class CheckPointManager : MonoBehaviour
     [SerializeField] private GameObject[] checkpointsList;
 
     public string rickshawTime;
+
+    [SerializeField] private GameObject grandpa;
     ///// <summary>
     ///// Reference to the Firebase Database.
     ///// </summary>
@@ -104,6 +106,7 @@ public class CheckPointManager : MonoBehaviour
         LastRickshaw.SetActive(false);
         firstRickshawCanvas.SetActive(false);
         playRickShawGame = false;
+        grandpa.SetActive(false);
 
         // Deactivate all checkpoints
         for (int i = 0; i < checkpointsList.Count(); i++)
@@ -181,14 +184,15 @@ public class CheckPointManager : MonoBehaviour
     /// <returns>IEnumerator</returns>
     IEnumerator rickshawFin()
     {
-        CheckPointText.text = "Mini game is finished";
-        RickshawText.text = "Congrats!";
-        yield return new WaitForSeconds(5f);
+        CheckPointText.text = "You brought grandma to the port";
+        RickshawText.text = "Congrats! Now talk to Grandpa.";
+        yield return new WaitForSeconds(3f);
 
         // Deactivate rickshaw and activate last rickshaw
         rickshaw.SetActive(false);
         LastRickshaw.SetActive(true);
         playRickShawGame = false;
+        grandpa.SetActive(true);
         //UpdateGameData();
         yield return new WaitForEndOfFrame();
     }
