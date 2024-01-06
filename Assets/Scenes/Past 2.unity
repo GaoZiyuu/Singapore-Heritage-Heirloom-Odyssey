@@ -1367,7 +1367,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1915497575}
         m_TargetAssemblyTypeName: GameDataPush, Assembly-CSharp
@@ -57683,74 +57683,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1441208476}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1445050254
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1798147207197706616, guid: 56223be63d2aa104dbf1884030f8612d,
-        type: 3}
-      propertyPath: m_Name
-      value: rickshaw checkpoint  (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2514378102316187827, guid: 56223be63d2aa104dbf1884030f8612d,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 96.16
-      objectReference: {fileID: 0}
-    - target: {fileID: 2514378102316187827, guid: 56223be63d2aa104dbf1884030f8612d,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 51.709152
-      objectReference: {fileID: 0}
-    - target: {fileID: 2514378102316187827, guid: 56223be63d2aa104dbf1884030f8612d,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 331.85217
-      objectReference: {fileID: 0}
-    - target: {fileID: 2514378102316187827, guid: 56223be63d2aa104dbf1884030f8612d,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2514378102316187827, guid: 56223be63d2aa104dbf1884030f8612d,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2514378102316187827, guid: 56223be63d2aa104dbf1884030f8612d,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2514378102316187827, guid: 56223be63d2aa104dbf1884030f8612d,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2514378102316187827, guid: 56223be63d2aa104dbf1884030f8612d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2514378102316187827, guid: 56223be63d2aa104dbf1884030f8612d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2514378102316187827, guid: 56223be63d2aa104dbf1884030f8612d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 56223be63d2aa104dbf1884030f8612d, type: 3}
 --- !u!1001 &1447988102
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -82512,7 +82444,7 @@ PrefabInstance:
     - target: {fileID: 6899109634698313877, guid: afef6030ff9396c48b481ba32b2a3dfb,
         type: 3}
       propertyPath: checkpointsList.Array.size
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6899109634698313877, guid: afef6030ff9396c48b481ba32b2a3dfb,
         type: 3}
@@ -82523,12 +82455,12 @@ PrefabInstance:
         type: 3}
       propertyPath: checkpointsList.Array.data[1]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1877233924}
     - target: {fileID: 6899109634698313877, guid: afef6030ff9396c48b481ba32b2a3dfb,
         type: 3}
       propertyPath: checkpointsList.Array.data[2]
       value: 
-      objectReference: {fileID: 1877233924}
+      objectReference: {fileID: 417838407}
     - target: {fileID: 6899109634698313877, guid: afef6030ff9396c48b481ba32b2a3dfb,
         type: 3}
       propertyPath: checkpointsList.Array.data[3]
@@ -86866,7 +86798,6 @@ SceneRoots:
   - {fileID: 7470615462831478607}
   - {fileID: 1173124817}
   - {fileID: 1877233923}
-  - {fileID: 1445050254}
   - {fileID: 334801813}
   - {fileID: 1727807990}
   - {fileID: 2040564440}

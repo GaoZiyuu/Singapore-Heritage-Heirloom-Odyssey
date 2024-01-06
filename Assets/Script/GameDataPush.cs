@@ -60,7 +60,7 @@ public class GameDataPush : MonoBehaviour
 
     public void Relic3Btn()
     {
-        string time = myCheckpointManager.GetComponent<CheckPointManager>().rickshawTime;
+        string time = myCheckpointManager.GetComponent<CheckPointManager>().rickshawTime.ToString();
         int point = 3;
         UpdateGameData(time, point);
     }

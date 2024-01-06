@@ -229,7 +229,7 @@ public class CheckPointManager : MonoBehaviour
             // Deactivate first rickshaw and activate checkpoints
             firstRickshaw.SetActive(false);
             rickshaw.SetActive(true);
-
+            checkPointCounter++;
             for (int i = 0; i < checkpointsList.Count(); i++)
             {
                 checkpointsList[i].SetActive(true);
