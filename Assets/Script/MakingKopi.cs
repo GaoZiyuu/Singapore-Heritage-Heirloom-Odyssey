@@ -20,46 +20,25 @@ public class MakingKopi : MonoBehaviour
         if (other.gameObject.tag == "kopiPowder")
         {
             kopiPowder.SetActive(true);
-            //kopiPowderPour.SetBool("kopiPour", true);
+            kopiPowderPour.SetBool("kopiPour", true);
             other.transform.SetParent(MakeKopi);
-            StartCoroutine(hideKopiPowder());
+            Destroy(other.gameObject);
         }
 
         if (other.gameObject.tag == "hotWater")
         {
             hotWater.SetActive(true);
-            //hotWaterPour.SetBool("hotpour", true);
+            hotWaterPour.SetBool("hotpour", true);
             other.transform.SetParent(MakeKopi);
-            StartCoroutine(hideHotWater());
+            Destroy(other.gameObject);
         }
 
         if (other.gameObject.tag == "scooper")
         {
             scooper.SetActive(true);
-            //stir.SetBool("stir", true);
+            stir.SetBool("stir", true);
             other.transform.SetParent(MakeKopi);
-            StartCoroutine(hideScooper());
+            Destroy(other.gameObject);
         }
-    }
-
-    IEnumerator hideKopiPowder()
-    {
-        kopiPowderPour.SetBool("kopiPour", true);
-        yield return new WaitForSeconds(3);
-        kopiPowder.SetActive(false);
-    }
-
-    IEnumerator hideHotWater()
-    {
-        hotWaterPour.SetBool("hotpour", true);
-        yield return new WaitForSeconds(3);
-        hotWater.SetActive(false);
-    }
-
-    IEnumerator hideScooper()
-    {
-        stir.SetBool("stir", true);
-        yield return new WaitForSeconds(3);
-        scooper.SetActive(false);
     }
 }

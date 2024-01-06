@@ -14,50 +14,29 @@ public class AnimationKopi : MonoBehaviour
     public GameObject condenseMilk;
     public GameObject kopi;
 
+    public GameObject endInstruction;
+    public GameObject Auntie;
+
     private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.tag == "condenseMilk")
         {
             conMilky.SetActive(true);
-            //conMilk.SetBool("Pour", true);
+            conMilk.SetBool("Pour", true);
             other.transform.SetParent(teaSet);
-            StartCoroutine(hideCondenseMilk());
+            Destroy(other.gameObject);
             condenseMilk.SetActive(true);
         }
 
         if (other.gameObject.tag == "doneKopi")
         {
             doneKopi.SetActive(true);
-            //pourKopi.SetBool("donePour", true);
+            pourKopi.SetBool("donePour", true);
             other.transform.SetParent(teaSet);
-            StartCoroutine(hideKopi());
+            Destroy(other.gameObject);
             kopi.SetActive(true);
+            endInstruction.SetActive(false);
+            Auntie.SetActive(true);
         }
-    }
-
-    IEnumerator hideCondenseMilk()
-    {
-        conMilk.SetBool("Pour", true);
-        yield return new WaitForSeconds(3);
-        conMilky.SetActive(false);
-    }
-
-    IEnumerator hideKopi()
-    {
-        pourKopi.SetBool("donePour", true);
-        yield return new WaitForSeconds(3);
-        doneKopi.SetActive(false);
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
