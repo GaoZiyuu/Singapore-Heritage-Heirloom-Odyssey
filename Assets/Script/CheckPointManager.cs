@@ -27,7 +27,7 @@ public class CheckPointManager : MonoBehaviour
         startTimer = false;
         LastRickshaw.SetActive(false);
         firstRickshawCanvas.SetActive(false);
-        playRickShawGame = true;
+        playRickShawGame = false;
         for (int i = 0; i < checkpointsList.Count(); i++)
         {
             checkpointsList[i].SetActive(false);
@@ -71,11 +71,12 @@ public class CheckPointManager : MonoBehaviour
     IEnumerator rickshawFin()
     {
         CheckPointText.text = "Mini game is finished";
-        RickshawText.text = "Congrats!!";
+        RickshawText.text = "Congrats!";
         yield return new WaitForSeconds(5f);
         //canvas.SetActive(false);
         rickshaw.SetActive(false);
         LastRickshaw.SetActive(true);
+        playRickShawGame = false;
         yield return new WaitForEndOfFrame();
     }
     public void hoverFirstRickshaw()
@@ -109,6 +110,10 @@ public class CheckPointManager : MonoBehaviour
     //    CollidedObjText.text += name + '\n';
     //}
 
+    public void coffeeGameFinish()
+    {
+        playRickShawGame = true;
+    }
     private void Update()
     {
         checkPointUI();
