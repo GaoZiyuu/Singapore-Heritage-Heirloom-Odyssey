@@ -88,7 +88,8 @@ public class AuthManager : MonoBehaviour
 
     private IEnumerator Login(string _email, string _password)
     {
-        //Pass to firebase the email and password
+        warningLoginText.text = "Logging in"
+;        //Pass to firebase the email and password
         Task<AuthResult> LoginTask = auth.SignInWithEmailAndPasswordAsync(_email, _password);
         //Wait until the task completes
         yield return new WaitUntil(predicate: () => LoginTask.IsCompleted);
@@ -121,7 +122,7 @@ public class AuthManager : MonoBehaviour
                     message = "Account does not exist";
                     break;
             }
-            warningLoginText.text = message;
+            warningLoginText.text = LoginTask.Exception.ToString();
         }
         else
         {
