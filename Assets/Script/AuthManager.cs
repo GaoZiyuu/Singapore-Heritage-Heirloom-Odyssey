@@ -41,6 +41,9 @@ public class AuthManager : MonoBehaviour
     public TMP_Text warningRegisterText; // text that shows up when there is a error
     public TMP_Text registerLoginText; // text to inform user that they have successfully created an account and logged in
 
+    [Header("Logout")]
+    public TMP_Text LogoutText;
+
     void Awake()
     {
         //Check that all of the necessary dependencies for Firebase are present on the system
@@ -84,6 +87,23 @@ public class AuthManager : MonoBehaviour
     {
         //Call the register coroutine  and passing the email, password, username
         StartCoroutine(Register(emailRegisterField.text, passwordRegisterField.text, usernameRegisterField.text));
+    }
+
+    public void LogoutUser()
+    {
+        if (auth.CurrentUser != null)
+        {
+            // Sign out the current user
+            auth.SignOut();
+            Debug.Log("User logged out successfully.");
+            LogoutText.text = "Logged out";
+
+            // Add any additional actions or scene transitions here after logout
+        }
+        else
+        {
+            Debug.LogWarning("No user is currently logged in.");
+        }
     }
 
     private IEnumerator Login(string _email, string _password)
