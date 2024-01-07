@@ -28,10 +28,7 @@ public class CheckPointManager : MonoBehaviour
     /// </summary>
     [SerializeField] private TMP_Text CheckPointText;
 
-    /// <summary>
-    /// Text component for displaying collided object information.
-    /// </summary>
-    [SerializeField] private TMP_Text CollidedObjText;
+   
 
     /// <summary>
     /// Counter for the number of checkpoints reached.
@@ -184,7 +181,7 @@ public class CheckPointManager : MonoBehaviour
         // Deactivate rickshaw and activate last rickshaw
         rickshaw.SetActive(false);
         LastRickshaw.SetActive(true);
-        playRickShawGame = false;
+        //playRickShawGame = false;
         grandpa.SetActive(true);
         //UpdateGameData();
         yield return new WaitForEndOfFrame();
@@ -195,10 +192,7 @@ public class CheckPointManager : MonoBehaviour
     /// </summary>
     public void hoverFirstRickshaw()
     {
-        if (playRickShawGame)
-        {
-            firstRickshawCanvas.SetActive(true);
-        }
+        firstRickshawCanvas.SetActive(true);
     }
 
     /// <summary>
@@ -206,10 +200,7 @@ public class CheckPointManager : MonoBehaviour
     /// </summary>
     public void unhoverFirstRickshaw()
     {
-        if (playRickShawGame)
-        {
-            firstRickshawCanvas.SetActive(false);
-        }
+        firstRickshawCanvas.SetActive(false);
     }
 
     /// <summary>
@@ -217,17 +208,14 @@ public class CheckPointManager : MonoBehaviour
     /// </summary>
     public void checkRickshawReady()
     {
-        if (playRickShawGame)
-        {
-            // Deactivate first rickshaw and activate checkpoints
-            firstRickshaw.SetActive(false);
-            rickshaw.SetActive(true);
-            checkPointCounter++;
-            for (int i = 0; i < checkpointsList.Count(); i++)
-            {
-                checkpointsList[i].SetActive(true);
-            }
-        }
+        firstRickshaw.SetActive(false);
+        //rickshaw.SetActive(true);
+        //checkPointCounter++;
+        //for (int i = 0; i < checkpointsList.Count(); i++)
+        //{
+        //    checkpointsList[i].SetActive(true);
+        //}
+
     }
 
     //private void OnTriggerEnter(Collider other)
