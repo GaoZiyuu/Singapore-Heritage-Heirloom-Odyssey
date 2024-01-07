@@ -31480,15 +31480,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -54415,15 +54415,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 75.9
+      value: 76.36
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 52.43
+      value: 53.071
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 305.8
+      value: 303.6
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -76986,12 +76986,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'The Singapore Stone is a significant archaeological artifact, originally
-    located at the mouth of the Singapore River. Carved with inscriptions in Old
-    Javanese script, it represents an early historical record and is believed to
-    have marked the ancient Temasek settlement.
-
-'
+  m_text: The Rickshaw Straw Hat is a classic and stylish headwear accessory, typically
+    made from straw materials. It features a wide brim that provides ample shade
+    and protection from the sun. The hat often has a distinctive design with a conical
+    or rounded crown and a flat or slightly upturned brim. The name "Rickshaw" may
+    evoke a sense of vintage or traditional charm, suggesting a connection to cultural
+    or historical references. This type of hat is popular for its lightweight and
+    breathable nature, making it a comfortable choice for sunny weather or outdoor
+    activities.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -77018,8 +77020,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 8.5
-  m_fontSizeBase: 8.5
+  m_fontSize: 6
+  m_fontSizeBase: 6
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -82198,6 +82200,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6254102905602587703, guid: 11a4fb01f3152344b8944d949d025ce0,
         type: 3}
       insertIndex: -1
+      addedObject: {fileID: 8285343614744400232}
+    - targetCorrespondingSourceObject: {fileID: 6254102905602587703, guid: 11a4fb01f3152344b8944d949d025ce0,
+        type: 3}
+      insertIndex: -1
       addedObject: {fileID: 8285343614744400233}
     - targetCorrespondingSourceObject: {fileID: 6254102905602587703, guid: 11a4fb01f3152344b8944d949d025ce0,
         type: 3}
@@ -82469,33 +82475,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8619400976437263070, guid: afef6030ff9396c48b481ba32b2a3dfb,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 6.105903
-      objectReference: {fileID: 0}
-    - target: {fileID: 8619400976437263070, guid: afef6030ff9396c48b481ba32b2a3dfb,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.3417401
-      objectReference: {fileID: 0}
-    - target: {fileID: 8619400976437263070, guid: afef6030ff9396c48b481ba32b2a3dfb,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.3417401
-      objectReference: {fileID: 0}
-    - target: {fileID: 8619400976437263070, guid: afef6030ff9396c48b481ba32b2a3dfb,
-        type: 3}
       propertyPath: m_LocalPosition.x
-      value: 107.94
+      value: 71.42
       objectReference: {fileID: 0}
     - target: {fileID: 8619400976437263070, guid: afef6030ff9396c48b481ba32b2a3dfb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 53.06
+      value: 53.88
       objectReference: {fileID: 0}
     - target: {fileID: 8619400976437263070, guid: afef6030ff9396c48b481ba32b2a3dfb,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 360.44
+      value: 325.44
       objectReference: {fileID: 0}
     - target: {fileID: 8619400976437263070, guid: afef6030ff9396c48b481ba32b2a3dfb,
         type: 3}
@@ -82535,11 +82526,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8371444038390193382, guid: afef6030ff9396c48b481ba32b2a3dfb,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1208183983715927495}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: afef6030ff9396c48b481ba32b2a3dfb, type: 3}
 --- !u!114 &1208183983715927494 stripped
 MonoBehaviour:
@@ -82553,27 +82540,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3cada178017fd842afa7367a88b3eee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!65 &1208183983715927495
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2104155496}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1450953503717277385
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -85654,6 +85620,33 @@ MonoBehaviour:
   _selectSurface: {fileID: 0}
   _movementProvider: {fileID: 0}
   _tiebreakerScore: 0
+--- !u!54 &8285343614744400232
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3256443793819895372}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &8285343614744400233
 MonoBehaviour:
   m_ObjectHideFlags: 0
