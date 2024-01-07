@@ -76,7 +76,7 @@ public class CheckPointManager : MonoBehaviour
     /// <summary>
     /// Flag indicating whether the rickshaw game should be played.
     /// </summary>
-    public bool playRickShawGame = false;
+    public bool playRickShawGame;
 
     /// <summary>
     /// Array of GameObjects representing checkpoints.
@@ -105,7 +105,6 @@ public class CheckPointManager : MonoBehaviour
         startTimer = false;
         LastRickshaw.SetActive(false);
         firstRickshawCanvas.SetActive(false);
-        //playRickShawGame = false;
         grandpa.SetActive(false);
     }
 
@@ -231,11 +230,11 @@ public class CheckPointManager : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        coffeeGameFinish();
-    }
-    // /// <summary>
+    //private void OnTriggerEnter(Collider other)
+    //{
+    //    coffeeGameFinish();
+    //}
+    //// /// <summary>
     // /// Adds the name of a collided object to the text display.
     // /// </summary>
     // /// <param name="name">Name of the collided object.</param>
@@ -247,11 +246,11 @@ public class CheckPointManager : MonoBehaviour
     /// <summary>
     /// Signals the completion of the coffeeshop game, allowing the rickshaw game to be played.
     /// </summary>
-    public void coffeeGameFinish()
-    {
-        playRickShawGame = true;
-        Debug.Log("Ricskshaw Play:" + playRickShawGame);
-    }
+    //public void coffeeGameFinish()
+    //{
+    //    playRickShawGame = true;
+    //    Debug.Log("Ricskshaw Play:" + playRickShawGame);
+    //}
 
     /// <summary>
     /// Updates are checked every frame.

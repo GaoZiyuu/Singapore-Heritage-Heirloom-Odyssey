@@ -54633,18 +54633,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 778957940}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 2104155496}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -82486,7 +82474,7 @@ PrefabInstance:
     - target: {fileID: 8371444038390193382, guid: afef6030ff9396c48b481ba32b2a3dfb,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8619400976437263070, guid: afef6030ff9396c48b481ba32b2a3dfb,
         type: 3}
@@ -82556,11 +82544,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8371444038390193382, guid: afef6030ff9396c48b481ba32b2a3dfb,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1208183983715927495}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: afef6030ff9396c48b481ba32b2a3dfb, type: 3}
 --- !u!114 &1208183983715927494 stripped
 MonoBehaviour:
@@ -82574,27 +82558,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3cada178017fd842afa7367a88b3eee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!65 &1208183983715927495
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2104155496}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1450953503717277385
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -85703,7 +85666,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
