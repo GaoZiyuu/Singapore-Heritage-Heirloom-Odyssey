@@ -237,6 +237,10 @@ public class CheckPointManager : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        coffeeGameFinish();
+    }
     // /// <summary>
     // /// Adds the name of a collided object to the text display.
     // /// </summary>
@@ -251,7 +255,8 @@ public class CheckPointManager : MonoBehaviour
     /// </summary>
     public void coffeeGameFinish()
     {
-        playRickShawGame = true;
+        playRickShawGame = !playRickShawGame;
+        Debug.Log("Ricskshaw Play:" + playRickShawGame);
     }
 
     /// <summary>
