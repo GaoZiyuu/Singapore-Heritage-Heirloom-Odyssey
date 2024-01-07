@@ -209,12 +209,12 @@ public class CheckPointManager : MonoBehaviour
     public void checkRickshawReady()
     {
         firstRickshaw.SetActive(false);
-        //rickshaw.SetActive(true);
+        rickshaw.SetActive(true);
         //checkPointCounter++;
-        //for (int i = 0; i < checkpointsList.Count(); i++)
-        //{
-        //    checkpointsList[i].SetActive(true);
-        //}
+        for (int i = 0; i < checkpointsList.Count(); i++)
+        {
+            checkpointsList[i].SetActive(true);
+        }
 
     }
 
