@@ -76,7 +76,7 @@ public class CheckPointManager : MonoBehaviour
     /// <summary>
     /// Flag indicating whether the rickshaw game should be played.
     /// </summary>
-    public bool playRickShawGame;
+    public bool playRickShawGame = false;
 
     /// <summary>
     /// Array of GameObjects representing checkpoints.
@@ -105,7 +105,7 @@ public class CheckPointManager : MonoBehaviour
         startTimer = false;
         LastRickshaw.SetActive(false);
         firstRickshawCanvas.SetActive(false);
-        playRickShawGame = false;
+        //playRickShawGame = false;
         grandpa.SetActive(false);
 
         // Deactivate all checkpoints
@@ -255,7 +255,7 @@ public class CheckPointManager : MonoBehaviour
     /// </summary>
     public void coffeeGameFinish()
     {
-        playRickShawGame = !playRickShawGame;
+        playRickShawGame = true;
         Debug.Log("Ricskshaw Play:" + playRickShawGame);
     }
 
