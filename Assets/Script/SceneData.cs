@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class SceneData : MonoBehaviour
 {
-    public static int LPS_Ext = 0;
-    public static int LPS_Int = 1;
-    public static int present = 0;
-    public static int past = 1;
-    public static int End = 1;
     public static int Auth = 0;
+    public static int End = 1;
+    public static int present = 3;
+    public static int past = 2;
+    
+    
 }

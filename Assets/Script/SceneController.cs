@@ -22,10 +22,17 @@ public class SceneController : MonoBehaviour
         SceneManager.LoadScene(SceneData.past);
     }
 
-    public void LPS_int()
+    public void ToEnd()
     {
-        SceneManager.LoadScene(SceneData.LPS_Int);
+        SceneManager.LoadScene(SceneData.End);
     }
+
+    public void ToMenu()
+    {
+        SceneManager.LoadScene(SceneData.Auth);
+    }
+
+
 
     public void OnTriggerEnter(Collider other)
     {
