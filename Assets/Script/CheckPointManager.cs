@@ -107,12 +107,6 @@ public class CheckPointManager : MonoBehaviour
         firstRickshawCanvas.SetActive(false);
         //playRickShawGame = false;
         grandpa.SetActive(false);
-
-        // Deactivate all checkpoints
-        for (int i = 0; i < checkpointsList.Count(); i++)
-        {
-            checkpointsList[i].SetActive(false);
-        }
     }
 
     /// <summary>

@@ -47209,6 +47209,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rickshaw checkpoint  (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1798147207197706616, guid: 56223be63d2aa104dbf1884030f8612d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2220102744628628130, guid: 56223be63d2aa104dbf1884030f8612d,
         type: 3}
       propertyPath: myCheckPointManager
@@ -54640,17 +54645,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1208183983715927494}
-        m_TargetAssemblyTypeName: CheckPointManager, Assembly-CSharp
-        m_MethodName: coffeeGameFinish
-        m_Mode: 1
+      - m_Target: {fileID: 2104155496}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &1366092186
 MonoBehaviour:
@@ -73117,6 +73122,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rickshaw checkpoint  (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1798147207197706616, guid: 56223be63d2aa104dbf1884030f8612d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2220102744628628130, guid: 56223be63d2aa104dbf1884030f8612d,
         type: 3}
       propertyPath: myCheckPointManager
@@ -82473,20 +82483,40 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckPointManager
       objectReference: {fileID: 0}
+    - target: {fileID: 8371444038390193382, guid: afef6030ff9396c48b481ba32b2a3dfb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8619400976437263070, guid: afef6030ff9396c48b481ba32b2a3dfb,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.721802
+      objectReference: {fileID: 0}
+    - target: {fileID: 8619400976437263070, guid: afef6030ff9396c48b481ba32b2a3dfb,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.721802
+      objectReference: {fileID: 0}
+    - target: {fileID: 8619400976437263070, guid: afef6030ff9396c48b481ba32b2a3dfb,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 46.81439
+      objectReference: {fileID: 0}
     - target: {fileID: 8619400976437263070, guid: afef6030ff9396c48b481ba32b2a3dfb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 71.42
+      value: 93.91
       objectReference: {fileID: 0}
     - target: {fileID: 8619400976437263070, guid: afef6030ff9396c48b481ba32b2a3dfb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 53.88
+      value: 52.95
       objectReference: {fileID: 0}
     - target: {fileID: 8619400976437263070, guid: afef6030ff9396c48b481ba32b2a3dfb,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 325.44
+      value: 343.63
       objectReference: {fileID: 0}
     - target: {fileID: 8619400976437263070, guid: afef6030ff9396c48b481ba32b2a3dfb,
         type: 3}
@@ -82526,7 +82556,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8371444038390193382, guid: afef6030ff9396c48b481ba32b2a3dfb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1208183983715927495}
   m_SourcePrefab: {fileID: 100100000, guid: afef6030ff9396c48b481ba32b2a3dfb, type: 3}
 --- !u!114 &1208183983715927494 stripped
 MonoBehaviour:
@@ -82540,6 +82574,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3cada178017fd842afa7367a88b3eee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &1208183983715927495
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2104155496}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1450953503717277385
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -85378,6 +85433,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 'rickshaw checkpoint '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1798147207197706616, guid: 56223be63d2aa104dbf1884030f8612d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2220102744628628130, guid: 56223be63d2aa104dbf1884030f8612d,
         type: 3}
