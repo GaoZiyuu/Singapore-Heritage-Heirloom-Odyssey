@@ -32,6 +32,11 @@ public class SceneController : MonoBehaviour
         SceneManager.LoadScene(SceneData.Auth);
     }
 
+    public void ToQuit()
+    {
+        Application.Quit();
+    }
+
 
 
     public void OnTriggerEnter(Collider other)

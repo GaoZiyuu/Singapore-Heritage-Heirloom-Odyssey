@@ -102,7 +102,7 @@ public class CheckPointManager : MonoBehaviour
         startTimer = false;
         LastRickshaw.SetActive(false);
         firstRickshawCanvas.SetActive(false);
-        grandpa.SetActive(false);
+        //grandpa.SetActive(false);
     }
 
     /// <summary>
@@ -182,7 +182,7 @@ public class CheckPointManager : MonoBehaviour
         rickshaw.SetActive(false);
         LastRickshaw.SetActive(true);
         //playRickShawGame = false;
-        grandpa.SetActive(true);
+        //grandpa.SetActive(true);
         //UpdateGameData();
         yield return new WaitForEndOfFrame();
     }

@@ -1,3 +1,10 @@
+/* 
+ * Author : Leong Yen Zhen
+ * Date: 13/12/2023
+ * Description: Auth Manager for register and login and sending it to firebase
+ */
+
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -64,12 +71,16 @@ public class AuthManager : MonoBehaviour
         // Create sample user data
         
     }
-
+    /// <summary>
+    /// function to load the survey scene
+    /// </summary>
     public void GoToSurvey()
     {
         SceneManager.LoadScene(SceneData.End);
     }
-
+    /// <summary>
+    /// function to connect to firebase
+    /// </summary>
     private void InitializeFirebase()
     {
         Debug.Log("Setting up Firebase Auth");
@@ -77,18 +88,25 @@ public class AuthManager : MonoBehaviour
         auth = FirebaseAuth.DefaultInstance;       
     }
 
+    /// <summary>
+    /// Function for logging in
+    /// </summary>
     public void LoginButton()
     {
         //Call the login coroutine and passing the email and password
         StartCoroutine(Login(emailLoginField.text, passwordLoginField.text));
     }
-    //Function for the register button
+    /// <summary>
+    /// Function for the register button
+    /// </summary>
     public void RegisterButton()
     {
         //Call the register coroutine  and passing the email, password, username
         StartCoroutine(Register(emailRegisterField.text, passwordRegisterField.text, usernameRegisterField.text));
     }
-
+    /// <summary>
+    /// function to log user out
+    /// </summary>
     public void LogoutUser()
     {
         if (auth.CurrentUser != null)
