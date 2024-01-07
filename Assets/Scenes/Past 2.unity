@@ -87267,7 +87267,7 @@ PrefabInstance:
         type: 3}
       propertyPath: firstRickshaw
       value: 
-      objectReference: {fileID: 3256443793819895372}
+      objectReference: {fileID: 974753608}
     - target: {fileID: 6899109634698313877, guid: afef6030ff9396c48b481ba32b2a3dfb,
         type: 3}
       propertyPath: CheckPointText
