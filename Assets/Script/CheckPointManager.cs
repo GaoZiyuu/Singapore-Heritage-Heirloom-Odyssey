@@ -1,3 +1,9 @@
+/* 
+ * Author : Pang Le Xin
+ * Date: 02/01/2024
+ * Description: checkpoint manager 
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;

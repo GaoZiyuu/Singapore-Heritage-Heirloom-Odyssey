@@ -1,3 +1,9 @@
+/* 
+ * Author : Leong Yen Zhen
+ * Date: 13/12/2023
+ * Description: Auth Manager for register and login and sending it to firebase
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

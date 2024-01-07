@@ -1,15 +1,26 @@
+/* Author: Leong YenZhen
+ * Date: 22/12/2023
+ * Description: Script to trigger sandbag
+ */
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class TriggerSandBag : MonoBehaviour
 {
+    /// <summary>
+    /// variable for gameobject
+    /// </summary>
     public GameObject sandbag1;
     public GameObject sandbag2;
     public GameObject sandbag3;
     public int bagtracker;
     public GameObject relic;
-
+    
+    /// <summary>
+    /// interaction happens when on trigger
+    /// </summary>
+    /// <param name="other"></param>
     public void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "sandbag")

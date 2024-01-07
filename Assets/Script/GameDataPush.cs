@@ -1,3 +1,7 @@
+/* Author: Pang Lexin
+ * Date: 05/01/2024
+ * Description: Script to push game data to firebase db
+ */
 using System.Collections;
 using System.Collections.Generic;
 using Firebase.Database;
@@ -20,12 +24,25 @@ public class GameDataPush : MonoBehaviour
     FirebaseAuth mAuth;
 
     [SerializeField] private GameObject myCheckpointManager;
+
+    /// <summary>
+    /// update data
+    /// </summary>
+    /// <param name="time"></param>
+    /// <param name="point"></param>
     private void UpdateGameData(string time,int point)
     {
         string timing = time.ToString();
         int checkpoint = point;
         StartCoroutine(GameDataUpdate(timing, checkpoint));
     }
+
+    /// <summary>
+    /// when to push data
+    /// </summary>
+    /// <param name="time"></param>
+    /// <param name="point"></param>
+    /// <returns></returns>
     private IEnumerator GameDataUpdate(string time, int point)
     {
 
@@ -44,6 +61,9 @@ public class GameDataPush : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// chekcpoint for task1
+    /// </summary>
     public void Relic1Btn()
     {
         string time = "Have't started mini game";
@@ -51,6 +71,9 @@ public class GameDataPush : MonoBehaviour
         UpdateGameData(time,point);
     }
 
+    /// <summary>
+    /// checkpoint for task2
+    /// </summary>
     public void Relic2Btn()
     {
         string time = "Have't started mini game";
@@ -58,6 +81,9 @@ public class GameDataPush : MonoBehaviour
         UpdateGameData(time, point);
     }
 
+    /// <summary>
+    /// checkpoint for task3
+    /// </summary>
     public void Relic3Btn()
     {
         string time = myCheckpointManager.GetComponent<CheckPointManager>().rickshawTime.ToString();

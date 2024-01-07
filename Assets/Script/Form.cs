@@ -1,3 +1,7 @@
+/* Author: Gao Ziyu
+ * Date: 01/01/2024
+ * Description: Script to submit form data
+ */
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,13 +14,18 @@ using UnityEngine.Analytics;
 
 public class Form : MonoBehaviour
 {
+    /// <summary>
+    /// variables
+    /// </summary>
     [SerializeField] private TMP_InputField nameInputField;
     [SerializeField] private TMP_InputField emailInputField;
     [SerializeField] private TMP_InputField messageInputField;
     [SerializeField] private TMP_InputField ageInputField;
     [SerializeField] private TMP_InputField genderInputField;
 
-
+    /// <summary>
+    /// database reference
+    /// </summary>
     private DatabaseReference databaseReference;
 
     private void Start()
@@ -25,11 +34,17 @@ public class Form : MonoBehaviour
         databaseReference = FirebaseDatabase.DefaultInstance.RootReference;
     }
 
+    /// <summary>
+    /// submit button 
+    /// </summary>
     public void SubmitFormFromButton()
     {
         SubmitForm();
     }
-
+    
+    /// <summary>
+    /// submit function
+    /// </summary>
     public void SubmitForm()
     {
         string name = nameInputField.text;
@@ -73,7 +88,14 @@ public class FormSubmissionData
     public string age;
     public string gender;
   
-
+    /// <summary>
+    /// data to submit
+    /// </summary>
+    /// <param name="name"></param>
+    /// <param name="email"></param>
+    /// <param name="message"></param>
+    /// <param name="age"></param>
+    /// <param name="gender"></param>
     public FormSubmissionData(string name, string email, string message, string age, string gender)
     {
         this.name = name;

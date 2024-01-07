@@ -1,4 +1,7 @@
-
+/* Author: Leong YenZhen
+ * Date: 22/12/2023
+ * Description: Script to load scene
+ */
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

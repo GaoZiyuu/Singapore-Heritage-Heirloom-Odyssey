@@ -1,3 +1,7 @@
+/* Author: Pang LeXin
+ * Date: 05/01/2024
+ * Description: Script to store game data
+ */
 using System;
 
 /// <summary>

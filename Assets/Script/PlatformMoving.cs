@@ -1,15 +1,28 @@
+/* Author: Leong YenZhen
+ * Date: 22/12/2023
+ * Description: Script to make the boat move
+ */
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlatformMoving : MonoBehaviour
 {
+    /// <summary>
+    /// bool to check if the boat can move
+    /// </summary>
     public bool canMove;
 
+    /// <summary>
+    /// boat var
+    /// </summary>
     [SerializeField] float speed;
     [SerializeField] int StartPoint;
     [SerializeField] Transform[] points;
 
+    /// <summary>
+    /// variables
+    /// </summary>
     int i;
     bool reverse;
 
